@@ -95,7 +95,7 @@
   content: " ";
   border-top: .5em solid transparent;
   border-bottom: .5em solid transparent;
-  border-right: .75em solid #000;
+  border-right: .75em solid #fff;
   width: 0;
   height: 0;
   display: block;
@@ -104,13 +104,13 @@
 
 .picker__nav--next:before {
   border-right: 0;
-  border-left: .75em solid #000
+  border-left: .75em solid #fff
 }
 
 .picker__nav--next:hover,
 .picker__nav--prev:hover {
   cursor: pointer;
-  color: #000;
+  color: #fff;
   background: #f2d1c5
 }
 
@@ -193,7 +193,7 @@
 .picker__day--infocus:hover,
 .picker__day--outfocus:hover {
   cursor: pointer;
-  color: #000;
+  color: #fff;
   background: #f2d1c5
 }
 
@@ -239,7 +239,7 @@
 .picker__button--close:hover,
 .picker__button--today:hover {
   cursor: pointer;
-  color: #000;
+  color: #fff;
   background: #f2d1c5;
   border-bottom-color: #f2d1c5
 }

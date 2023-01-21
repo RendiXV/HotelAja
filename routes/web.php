@@ -5,6 +5,7 @@ use App\Http\Controllers\DataKamarController;
 use App\Http\Controllers\DataReservasiController;
 use App\Http\Controllers\FasilitasHotelController;
 use App\Http\Controllers\FasilitasKamarController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PemesananController;
 
 /*
@@ -18,7 +19,7 @@ use App\Http\Controllers\PemesananController;
 |
 */
 
-Route::get('/', 
+Route::get('/',
     [FasilitasKamarController::class, 'homepage']
 );
 
@@ -35,5 +36,5 @@ Route::get('/dataReservasi/filter', [DataReservasiController::class, 'tanggal'])
 Route::get('/cetak', [PemesananController::class, 'cetakBukti']);
 
 Auth::routes();
-Route::get('/dataKamar', [App\Http\Controllers\HomeController::class, 'admin'])->name('admin.home')->middleware('is_admin');
-Route::get('/dataReservasi', [App\Http\Controllers\HomeController::class, 'resepsionis'])->name('home');
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'admin'])->name('admin.home')->middleware('is_admin');
+Route::get('/Reservasi', [App\Http\Controllers\HomeController::class, 'resepsionis'])->name('home');

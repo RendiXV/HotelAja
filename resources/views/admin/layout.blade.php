@@ -6,21 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Dashboard - Hotel Hebat</title>
         <!-- plugins:css -->
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/mdi/css/materialdesignicons.min.css">
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/css/vendor.bundle.base.css">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/mdi/css/materialdesignicons.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/css/vendor.bundle.base.css') }}">
         <!-- endinject -->
         <!-- Plugin css for this page -->
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap.css">
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/flag-icon-css/css/flag-icon.min.css">
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/owl-carousel-2/owl.carousel.min.css">
-        <link rel="stylesheet" href="/assets/dashboard/assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap.css') }}">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/owl-carousel-2/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/vendors/owl-carousel-2/owl.theme.default.min.css') }}">
         <!-- End plugin css for this page -->
         <!-- inject:css -->
         <!-- endinject -->
         <!-- Layout styles -->
-        <link rel="stylesheet" href="/assets/dashboard/assets/css/style.css">
+        <link rel="stylesheet" href="{{ asset('/assets/dashboard/assets/css/style.css') }}">
         <!-- End layout styles -->
-        <link rel="shortcut icon" href="/assets/dashboard/assets/images/favicon.png" />
+        <link rel="shortcut icon" href="{{ asset('/assets/dashboard/assets/images/favicon.png') }}" />
         <style>
             .content-wrapper {
                 background: linear-gradient(to bottom, #9cafe5, #74e9d5);
@@ -40,7 +40,7 @@
                 <div class="profile-desc">
                 <div class="profile-pic">
                     <div class="count-indicator">
-                    <img class="img-xs rounded-circle" src="/assets/dashboard/assets/images/faces/face.jpg" alt="">
+                    <img class="img-xs rounded-circle" src="{{ asset('/assets/dashboard/assets/images/faces/face.jpg') }}" alt="">
                     <span class="count bg-success"></span>
                     </div>
                     <div class="profile-name">
@@ -50,9 +50,11 @@
                 </div>
                 </div>
             </li>
+
             <li class="nav-item nav-category">
                 <span class="nav-link">Dashboard</span>
             </li>
+
             <li class="nav-item menu-items">
                 <a class="nav-link" href="/dataKamar">
                 <span class="menu-icon">
@@ -61,6 +63,7 @@
                 <span class="menu-title">Data Kamar</span>
                 </a>
             </li>
+            
             <li class="nav-item menu-items">
                 <a class="nav-link" href="/fasilitasKamar">
                 <span class="menu-icon">
@@ -102,7 +105,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                     <div class="navbar-profile">
-                        <img class="img-xs rounded-circle" src="/assets/dashboard/assets/images/faces/face.jpg" alt="">
+                        <img class="img-xs rounded-circle" src="{{ asset('') }}/assets/dashboard/assets/images/faces/face.jpg" alt="">
                         <p class="mb-0 d-none d-sm-block navbar-profile-name">{{ Auth::user()->name }}</p>
                     </div>
                     </a>
@@ -124,24 +127,24 @@
         </div>
         <!-- container-scroller -->
         <!-- plugins:js -->
-        <script src="/assets/dashboard/assets/vendors/js/vendor.bundle.base.js"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/js/vendor.bundle.base.js') }}"></script>
         <!-- endinject -->
         <!-- Plugin js for this page -->
-        <script src="/assets/dashboard/assets/vendors/chart.js/Chart.min.js"></script>
-        <script src="/assets/dashboard/assets/vendors/progressbar.js/progressbar.min.js"></script>
-        <script src="/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
-        <script src="/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-        <script src="/assets/dashboard/assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/chart.js/Chart.min.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/progressbar.js/progressbar.min.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap.min.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/vendors/owl-carousel-2/owl.carousel.min.js') }}"></script>
         <!-- End plugin js for this page -->
         <!-- inject:js -->
-        <script src="/assets/dashboard/assets/js/off-canvas.js"></script>
-        <script src="/assets/dashboard/assets/js/hoverable-collapse.js"></script>
-        <script src="/assets/dashboard/assets/js/misc.js"></script>
-        <script src="/assets/dashboard/assets/js/settings.js"></script>
-        <script src="/assets/dashboard/assets/js/todolist.js"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/off-canvas.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/hoverable-collapse.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/misc.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/settings.js') }}"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/todolist.js') }}"></script>
         <!-- endinject -->
         <!-- Custom js for this page -->
-        <script src="/assets/dashboard/assets/js/dashboard.js"></script>
+        <script src="{{ asset('/assets/dashboard/assets/js/dashboard.js') }}"></script>
         <!-- End custom js for this page -->
     </body>
 </html>

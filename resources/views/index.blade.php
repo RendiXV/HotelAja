@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Hotel Hebat | Mudah & Nyaman</title>
+    <title>Hotel_Aja | Mudah & Nyaman</title>
 
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -36,7 +36,7 @@
     <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
-                <h1><a href="/">HOTEL HEBAT</a></h1>
+                <h1><a href="/">HOTEL_AJA</a></h1> 
             </div>
             <nav id="navbar" class="navbar">
                 <ul>
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">HOTEL HEBAT</h1>
+                    <h1 data-aos="fade-up">HOTEL_AJA</h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">
                         Cari hotel atau penginapan di Hotel Hebat yuk! Booking hotel mudah, murah, dan banyak pilihannya hanya di Hotel Hebat.
                     </h2>
@@ -313,7 +313,7 @@
                         <div class="info">
                             <div>
                                 <i class="ri-map-pin-line"></i>
-                                <p>Jl. Raya Wangun<br>Indonesia, Bogor 16146</p>
+                                <p>Jl. Impian<br>Indonesia, Bandung 1888 </p>
                             </div>
                             <div>
                                 <i class="ri-mail-send-line"></i>
@@ -366,7 +366,7 @@
                         &copy; Copyright <strong>Hotel Hebat</strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                        Designed by <a href="https://instagram.com/mela.wati_16">Melawati</a>
+                        Designed by <a href="https://instagram.com/mela.wati_16">18Team</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
